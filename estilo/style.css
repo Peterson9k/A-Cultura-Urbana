@@ -29,6 +29,40 @@ header{
     
 }
 
+menu{
+    margin: auto;
+    text-align: center;
+    font-size: 3vw;
+    font-size: 3vh;
+    height: 10%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    padding: 1%;
+    
+   
+    
+}
+
+menu > p {
+   
+    transition-duration : .10s;
+    
+}
+
+menu:hover >p {
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26), transparent );
+    transition-duration: .5s ;
+    width: 96vh;
+    height: 50vh;
+    
+    border-radius: 5px;
+}
+
+
+
 header > h1{
     height: 10%;
     font-family: var(--fonte1);
@@ -36,7 +70,8 @@ header > h1{
     top: 50vh;
     width: 92vw;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.411);
+    background-image: linear-gradient(to right, black, transparent);
+    
     color: white;
     text-align: center;
    
@@ -57,40 +92,42 @@ header > h1{
 }
 
 .t1{
-    
-    color: rgb(128, 117, 117);
-    font-weight: bold;
-    
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 400;
     margin: auto;
     padding-top: 20px;
     width: 305px;
-    background-color: rgba(85, 85, 87, 0.199);  
-    padding-bottom: 10px;
+      
+    padding-bottom: 10rgba(85, 85, 87, 0)
     
+}
+
+.t2{
+    color: white;
+    font-weight: 400;
+    margin: auto;
+    padding-top: 20px;
+    width: 305px;
+    padding-bottom: 10px;
 }
 
 
 #prt{
-    background-color: black;
+    background-color: white;
     width: 100%;
     transition-duration: 0.5s; 
 }
 
-#prt:hover{
-    color: black;
-    background-color: white;
-}
 
 #brn{
-    background-color: white;
+    background-color: black;
     width: 100%;
     transition-duration: .5s;
 }
 
-#brn:hover{
-    color: black;
-    background-color: black;
-}
+
 #img1{
     background-image: url(../imagem/img1.jpg);
     background-size: cover;
@@ -121,4 +158,14 @@ footer{
 
 footer > p{
     text-align: center;
+}
+
+ .footer{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footer:hover{
+    text-decoration: underline;
 }
