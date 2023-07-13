@@ -23,7 +23,6 @@ header{
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
-
     background-position: center;
     background-repeat: no-repeat;
     
@@ -31,6 +30,7 @@ header{
 }
 
 header > h1{
+    height: 10%;
     font-family: var(--fonte1);
     position: absolute;
     top: 50vh;
@@ -43,17 +43,53 @@ header > h1{
     
 }
 
-.tx1{
+#tx1{
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.062);
-    background-color: rgba(233, 223, 223, 0);
+    background-color: rgba(233, 223, 223, 0.123);
     padding-top: 20px;
     padding-bottom: 10px;
     width: 300px;
-    font-size: 1.1em;
+    font-size: 3vh;
+    height: 50%;
     line-height: 2em;
     margin: auto;
+}
 
+.t1{
+    
+    color: rgb(128, 117, 117);
+    font-weight: bold;
+    
+    margin: auto;
+    padding-top: 20px;
+    width: 305px;
+    background-color: rgba(85, 85, 87, 0.199);  
+    padding-bottom: 10px;
+    
+}
+
+
+#prt{
+    background-color: black;
+    width: 100%;
+    transition-duration: 0.5s; 
+}
+
+#prt:hover{
+    color: black;
+    background-color: white;
+}
+
+#brn{
+    background-color: white;
+    width: 100%;
+    transition-duration: .5s;
+}
+
+#brn:hover{
+    color: black;
+    background-color: black;
 }
 #img1{
     background-image: url(../imagem/img1.jpg);
@@ -73,31 +109,16 @@ header > h1{
     background-image: url(../imagem/img2.jpg);
 }
 
-#img3{
-    height: 50vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../imagem/img3.jpg);
-}
-
-#img4{
-    height: 50vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../imagem/img4.jpg);
-}
-
 .img{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.513);
 }
 
-h2{
-    position:absolute;
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p{
     text-align: center;
-    margin: auto;
-   
 }
