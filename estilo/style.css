@@ -71,11 +71,30 @@ header > h1{
     width: 92vw;
     padding: 10px;
     background-image: linear-gradient(to right, black, transparent);
-    
     color: white;
     text-align: center;
+    
+
+    
+}
+
+#h1{
    
     
+        width: 100%;
+        height: 100%;
+        padding-top: 25vh;
+        text-align: center;
+        margin: auto;
+        font-size: 66px;
+        line-height: 80px;
+        font-weight: 800;
+        background-image: linear-gradient(to right, black, transparent);
+        text-align: center;
+        text-transform: uppercase;
+        color: #de466c;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 #tx1{
