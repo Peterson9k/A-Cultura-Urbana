@@ -93,7 +93,7 @@ header > h1{
         text-align: center;
         text-transform: uppercase;
         color: #de466c;
-        -webkit-background-clip: text;
+        -webkit-background-clip:text;
         -webkit-text-fill-color: transparent;
 }
 
